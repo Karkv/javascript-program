@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableself</title>
+    <script>
+        let x = parseInt(prompt("Enter the number"));
+        let range = parseInt(prompt("Enter the range:"))
+        for (let i = 1; i <= range; i++) {
+            let n = i * x
+            console.log(n)
+        }
+
+
+        function table() {
+            let a = parseInt(prompt("Enter the number"));
+            let range = parseInt(prompt("Enter the range"));
+            for (let i = 1; i <= range; i++) {
+                let n = a * i
+                console.log(n)
+
+            }
+        }
+        console.log(table())
+
+
+        function days() {
+            let day = parseInt(prompt("Enter the day number"))
+
+            switch (day) {
+                case 1:
+                    console.log('Sunday');
+                case 2:
+                    console.log('Monday');
+                case 3:
+                    console.log('tuesday');
+                case 4:
+                    console.log('wednesday');
+                case 5:
+                    console.log('thusday');
+                case 6:
+                    console.log('friday');
+                case 7:
+                    console.log('saturday');
+                default:
+                    console.log('wrong numbr ');
+
+            }
+        }
+        console.log(days())
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
